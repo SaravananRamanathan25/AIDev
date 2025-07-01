@@ -10,3 +10,4 @@ pandas
 tantivy
 yfinance
 fastapi[standard]
+sqlalchemy

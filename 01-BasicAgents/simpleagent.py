@@ -2,6 +2,7 @@ from agno.agent import Agent
 from agno.models.openai import OpenAIChat
 from agno.models.groq import Groq
 from agno.tools.duckduckgo import DuckDuckGoTools
+
  
 import os
 from dotenv import load_dotenv
@@ -17,7 +18,9 @@ agent=Agent(
     markdown=True
 )
 
+
+                         
 # response = agent.run("What is the capital of France?")
 # print(response) 
 
-# agent.print_response("Which is the larget country in the world?")
+agent.print_response("Which is the larget country in the world?")
