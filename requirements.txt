@@ -9,3 +9,4 @@ groq
 pandas
 tantivy
 yfinance
+fastapi[standard]
