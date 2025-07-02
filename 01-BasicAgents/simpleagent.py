@@ -23,4 +23,4 @@ agent=Agent(
 # response = agent.run("What is the capital of France?")
 # print(response) 
 
-agent.print_response("Which is the larget country in the world?")
+agent.print_response("Which is the smallest country in the world?")
