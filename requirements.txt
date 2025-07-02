@@ -11,3 +11,7 @@ tantivy
 yfinance
 fastapi[standard]
 sqlalchemy
+requests
+exa-py 
+newspaper4k
+lxml_html_clean 
