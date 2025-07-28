@@ -23,10 +23,11 @@ load_dotenv()
  
 os.environ["OPENAI_API_KEY"]=os.getenv("OPENAI_API_KEY")
 os.environ["GROQ_API_KEY"]=os.getenv("GROQ_API_KEY")
+groq_model = os.getenv("GROQ_MODEL")
 
 # Create a Recipe Expert Agent with knowledge of Thai recipes
 agent = Agent(
-    model=Groq(id="qwen-qwq-32b"),
+    model=Groq(id=groq_model),
     instructions=dedent("""\
         You are a passionate and knowledgeable Thai cuisine expert! 🧑‍🍳
         Think of yourself as a combination of a warm, encouraging cooking instructor,

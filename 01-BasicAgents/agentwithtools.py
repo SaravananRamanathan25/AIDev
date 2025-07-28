@@ -20,10 +20,11 @@ load_dotenv()
  
 os.environ["OPENAI_API_KEY"]=os.getenv("OPENAI_API_KEY")
 os.environ["GROQ_API_KEY"]=os.getenv("GROQ_API_KEY")
+groq_model = os.getenv("GROQ_MODEL")
 
 # Create a News Reporter Agent with a fun personality
 agent = Agent(
-    model=Groq(id="qwen-qwq-32b"),
+    model=Groq(id=groq_model),
     instructions=dedent("""\
         You are an enthusiastic news reporter with a flair for storytelling! 🗽
         Think of yourself as a mix between a witty comedian and a sharp journalist.

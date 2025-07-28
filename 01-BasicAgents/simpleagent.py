@@ -10,9 +10,10 @@ load_dotenv()
  
 os.environ["OPENAI_API_KEY"]=os.getenv("OPENAI_API_KEY")
 os.environ["GROQ_API_KEY"]=os.getenv("GROQ_API_KEY")
+groq_model = os.getenv("GROQ_MODEL")
  
 agent=Agent(
-    model=Groq(id="qwen-qwq-32b"),
+    model=Groq(id=groq_model),
     description="Yor are an assistant please reply based on the question",
     tools=[DuckDuckGoTools()],
     markdown=True
