@@ -21,4 +21,4 @@ To run a script:
 1. Open the Terminal, enter
     >conda activate venv/
     >cd <<path where the python file exists>>
-    >python <<name of the fil>>.py   
+    >python <<name of the fil>>.py
