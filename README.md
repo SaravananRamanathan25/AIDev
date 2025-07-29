@@ -16,10 +16,10 @@ OPENAI_API_KEY=""
 GROQ_API_KEY=""
 GROQ_MODEL="qwen/qwen3-32b"
 
-
 To run a script:
 ================
 1. Open the Terminal, enter
     >conda activate venv/
     >cd <<path where the python file exists>>
     >python <<name of the fil>>.py
+    
