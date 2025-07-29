@@ -14,4 +14,4 @@ sqlalchemy
 requests
 exa-py 
 newspaper4k
-lxml_html_clean 
+lxml_html_clean
