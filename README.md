@@ -22,3 +22,4 @@ To run a script:
     >conda activate venv/
     >cd <<path where the python file exists>>
     >python <<name of the fil>>.py
+    
